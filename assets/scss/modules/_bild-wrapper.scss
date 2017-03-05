@@ -1,0 +1,47 @@
+section.bild-wrapper{
+	padding-top: 0;
+	padding-bottom: 0;
+	//margin-bottom: rem-calc(100);
+	.row{
+		max-width: 100%;
+		position: relative;
+	}
+	.columns{
+		position: relative;
+		z-index: 1;
+		height: 0;
+		padding-bottom: 38.8%;
+		background-size: cover;
+		background-position: center center;
+		background-image: url('../images/bild-2.png');
+		&:first-child{
+			background-image: url('../images/bandfoto.jpg');
+		}
+	}
+	
+	.snapchat{
+		position: absolute;
+		z-index: 2;
+		bottom: 0%;
+		left: 50%;
+		transform: translateX(-50%) translateY(50%);
+		width: 200px;
+		height: 200px;
+		//display: none;
+	}
+
+	@include breakpoint(small only) {
+		.columns{
+			height: 0px;
+			padding-bottom: 55%;
+		}
+		
+		.snapchat{
+			width: 20vw;
+			height: 20vw;
+		}
+
+	}
+
+
+}

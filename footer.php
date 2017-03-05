@@ -11,13 +11,6 @@
 ?>
 
 		</section>
-		<div id="footer-container">
-			<footer id="footer">
-				<?php do_action( 'foundationpress_before_footer' ); ?>
-				<?php dynamic_sidebar( 'footer-widgets' ); ?>
-				<?php do_action( 'foundationpress_after_footer' ); ?>
-			</footer>
-		</div>
 
 		<?php do_action( 'foundationpress_layout_end' ); ?>
 
@@ -29,6 +22,64 @@
 
 
 <?php wp_footer(); ?>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+
+	var player = new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_2",
+		cssSelectorAncestor: "#jp_container_2"
+	}, [
+		{
+			title:"Kopf unter Wasser",
+			mp3:"<?php echo get_stylesheet_directory_uri(); ?>/assets/songs/kopf-unter-wasser.mp3",
+			oga:"<?php echo get_stylesheet_directory_uri(); ?>/assets/songs/kopf-unter-wasser.ogg"
+		},
+		{
+			title:"Wir sind wir",
+			mp3:"<?php echo get_stylesheet_directory_uri(); ?>/assets/songs/wir-sind-wir.mp3",
+			oga:"<?php echo get_stylesheet_directory_uri(); ?>/assets/songs/wir-sind-wir.mp3",
+		},
+		{
+			title:"Ans Meer",
+			mp3:"<?php echo get_stylesheet_directory_uri(); ?>/assets/songs/ans-meer.mp3",
+			oga:"<?php echo get_stylesheet_directory_uri(); ?>/assets/songs/ans-meer.mp3",
+		},
+		{
+			title:"Sie Tanzt",
+			mp3:"<?php echo get_stylesheet_directory_uri(); ?>/assets/songs/sie-tanzt.mp3",
+			oga:"<?php echo get_stylesheet_directory_uri(); ?>/assets/songs/sie-tanzt.mp3",
+		},
+		{
+			title:"Endlich Sommer",
+			mp3:"<?php echo get_stylesheet_directory_uri(); ?>/assets/songs/endlich-sommer.mp3",
+			oga:"<?php echo get_stylesheet_directory_uri(); ?>/assets/songs/endlich-sommer.mp3",
+		}
+	], {
+		//swfPath: "../../dist/jplayer",
+		supplied: "oga, mp3",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true
+	});
+
+	$('.playerlist li').click(function() {
+		var songIndex = $(this).attr("data-song");
+		console.log( songIndex );
+		player.play(songIndex);
+	});
+
+	function playSong(e) {
+	  player.play(e);
+	}
+
+});
+//]]>
+</script>
+
 <?php do_action( 'foundationpress_before_closing_body' ); ?>
 </body>
 </html>

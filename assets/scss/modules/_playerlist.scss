@@ -1,0 +1,19 @@
+.playerlist {
+	list-style: none;
+	margin-left: 0;
+	li {
+		font-size: rem-calc(27);
+		font-weight: 600;
+		color: $primary-color;
+		padding-bottom: 4px;
+		margin-bottom: 4px;
+		cursor: pointer;
+
+		&:not(:last-child) {
+			border-bottom: 2px solid $primary-color;
+		}
+	}
+}
+.storewrapper{
+	margin-top: 40px;
+}

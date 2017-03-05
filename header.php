@@ -27,7 +27,7 @@
 
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
-	<header id="masthead" class="site-header" role="banner">
+	<!--<header id="masthead" class="site-header" role="banner">
 		<div class="title-bar" data-responsive-toggle="site-navigation">
 			<button class="menu-icon" type="button" data-toggle="mobile-menu"></button>
 			<div class="title-bar-title">
@@ -49,7 +49,7 @@
 				<?php endif; ?>
 			</div>
 		</nav>
-	</header>
+	</header>-->
 
 	<section class="container">
 		<?php do_action( 'foundationpress_after_header' );

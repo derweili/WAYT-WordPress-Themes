@@ -14,7 +14,7 @@ var cleanCSS    = require('gulp-clean-css');
 
 // Enter URL of your local server here
 // Example: 'http://localwebsite.dev'
-var URL = '';
+var URL = 'http://wayt';
 
 // Check for --production flag
 var isProduction = !!(argv.production);
@@ -61,6 +61,10 @@ var PATHS = {
 
     // Motion UI
     'assets/components/motion-ui/motion-ui.js',
+    
+    // jPlayer
+    //'assets/components/jPlayer/dist/jplayer/jquery.jplayer.min.js',
+    //'assets/components/jPlayer/dist/add-on/jplayer.playlist.min.js',
 
     // Include your own custom scripts (located in the custom folder)
     'assets/javascript/custom/*.js',

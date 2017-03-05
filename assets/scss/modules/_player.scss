@@ -1,0 +1,74 @@
+#jp_container_2{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px 0;
+	background-color: #393939;
+	z-index: 10;
+
+  	.jp-stop{
+  		height: 15px;
+  		width: 15px;
+  		background: $primary-color;
+  		margin-right: 10px;
+  		transform: translateY(-3px);
+  		cursor: pointer;
+
+  	}
+  	.jp-next{
+	  	transform: rotate(180deg);
+	  	margin-left: 5px;
+	  	cursor: pointer;
+	  	img{
+	  		cursor: pointer;
+	  	}
+	}
+	.jp-previous{
+		cursor: pointer;
+	}
+	.jp-play, .jp-pause{
+		margin-right: 10px;
+		cursor: pointer;
+	}
+
+	.jp-playlist{
+		display: none!important;
+		cursor: pointer;
+	}
+
+	.jp-interface{
+		@include flex-grid-row(null, 100%);
+		align-items: center;
+		/*> * {
+			@include flex-grid-column($columns, $gutter);
+		}*/
+		.jp-controls{
+			@include flex-grid-column('shrink');
+		}
+		.jp-progress{
+			@include flex-grid-column();
+		}
+	}
+
+
+	//progress bar
+	.jp-seek-bar{
+		@include progress-container;
+		margin-bottom: 0;
+		cursor: pointer;
+	}
+	.jp-play-bar{
+		@include progress-meter;
+	}
+	.jp-time-holder{
+		@include progress-meter-text;
+	}
+
+	@include breakpoint(small only) {
+
+		bottom: 44px;
+
+	}
+
+}
