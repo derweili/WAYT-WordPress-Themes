@@ -35,7 +35,7 @@ get_header(); ?>
 				<a href="#" class="text-center float-center"><strong>kostenlos herunterladen</strong></a>
 			</div>
 			<div class="columns medium-6 end">
-				<h2 class="show-for-medium">Neuanfang EP</h2>
+				<h2 class="show-for-medium">WAYT EP</h2>
 				<ul class="playerlist show-for-medium">
 					<li data-song="0">Kopf unter Wasser</li>
 					<li data-song="1"> Wir sind wir</li>
