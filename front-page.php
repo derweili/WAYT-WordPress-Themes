@@ -3,7 +3,7 @@ get_header(); ?>
 <div class="fixed-nav">
 	<div class="row">
 <ul class="horizontal menu" data-magellan>
-  <li class="unpublished"><a href="#songs">Songs</a></li>
+  <li class=""><a href="#songs">Songs</a></li>
   <li><a href="#video">Video</a></li>
   <li><a href="#about">WAYT</a></li>
   <li><a href="#live">Live</a></li>
@@ -25,10 +25,10 @@ get_header(); ?>
 		<h1>WAYT</h1>
 	</section>
 
-	<section class="player gray-bg unpublished" id="songs" data-magellan-target="songs">
+	<section class="player gray-bg " id="songs" data-magellan-target="songs">
 		<div class="row">
 			<div class="columns show-for-small-only">
-				<h2>Neuanfang EP</h2>
+				<h2>WAYT EP</h2>
 			</div>
 			<div class="columns medium-6 text-center">
 				<div class="cover" style="height: 0; width: 100%; padding-bottom: 100%; background: white;"></div>
@@ -45,11 +45,11 @@ get_header(); ?>
 					<li data-song="5">Du bist perfekt</li>
 				</ul>
 				<div class="row storewrapper align-center">
-					<div class="columns small-8 medium-6">
-						<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:1vCWHaC5f2uS3yhpwWbIA6&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+					<div class="columns small-8 medium-5 ">
+						<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:0XTEIOELXjcNNOL4rz58uW&size=detail&theme=light&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 					</div>
 					<div class="columns small-8 medium-6">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/apple-music-badge.svg" alt="Apple Music" width="200">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/apple-music-badge.svg" alt="Apple Music" width="160">
 					</div>
 				</div>
 			</div>
@@ -79,7 +79,7 @@ get_header(); ?>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/bild-3.png" alt="WAYT">
 			</div>
 			<div class="columns small-12 medium-6">
-				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+				<p></p>
 			</div>
 		</div>
 	</section>
@@ -137,7 +137,7 @@ $fbe_query = new WP_Query( $args );
 <div id="bottom-pusher"></div>
 
 <div id="jquery_jplayer_2" class="jp-jplayer"></div>
-<div id="jp_container_2" class="jp-audio unpublished" role="application" aria-label="media player">
+<div id="jp_container_2" class="jp-audio " role="application" aria-label="media player">
 	<div class="jp-type-playlist">
 		<div class="jp-gui jp-interface">
 			<div class="jp-controls">
