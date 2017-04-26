@@ -32,7 +32,7 @@ get_header(); ?>
 			</div>
 			<div class="columns medium-6 text-center">
 				<div class="cover" style="height: 0; width: 100%; padding-bottom: 100%; background: white;"></div>
-				<a href="#" class="text-center float-center"><strong>kostenlos herunterladen</strong></a>
+				<a href="downloads/wayt.zip" target="_blank" class="text-center float-center"><strong>kostenlos herunterladen</strong></a>
 			</div>
 			<div class="columns medium-6 end">
 				<h2 class="show-for-medium">WAYT EP</h2>
@@ -42,7 +42,6 @@ get_header(); ?>
 					<li data-song="2"> Ans Meer</li>
 					<li data-song="3"> Sie Tanzt</li>
 					<li data-song="4">Endlich Sommer</li>
-					<li data-song="5">Du bist perfekt</li>
 				</ul>
 				<div class="row storewrapper align-center">
 					<div class="columns small-8 medium-5 ">
@@ -70,7 +69,7 @@ get_header(); ?>
 
 
 
-	<section class="info gray-bg" id="about" data-magellan-target="about">
+	<!--<section class="info gray-bg" id="about" data-magellan-target="about">
 		<div class="row">
 			<div class="columns text-center headline small-12">
 				<h2>WAYT</h2>
@@ -82,7 +81,7 @@ get_header(); ?>
 				<p></p>
 			</div>
 		</div>
-	</section>
+	</section>-->
 <?php
 
 $args = array (
