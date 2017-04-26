@@ -37,11 +37,11 @@ get_header(); ?>
 			<div class="columns medium-6 end">
 				<h2 class="show-for-medium">WAYT EP</h2>
 				<ul class="playerlist show-for-medium">
-					<li data-song="0">Kopf unter Wasser</li>
-					<li data-song="1"> Wir sind wir</li>
-					<li data-song="2"> Ans Meer</li>
-					<li data-song="3"> Sie Tanzt</li>
-					<li data-song="4">Endlich Sommer</li>
+					<li data-song="0"><i class="play"></i> Kopf Unter Wasser</li>
+					<li data-song="1"><i class="play"></i> Wir Sind Wir</li>
+					<li data-song="2"><i class="play"></i> Ans Meer</li>
+					<li data-song="3"><i class="play"></i> Sie Tanzt</li>
+					<li data-song="4"><i class="play"></i> Endlich Sommer</li>
 				</ul>
 				<div class="row storewrapper align-center">
 					<div class="columns small-8 medium-5 ">

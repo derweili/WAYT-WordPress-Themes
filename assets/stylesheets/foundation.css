@@ -6018,6 +6018,20 @@ section.bild-wrapper {
     #jp_container_2 {
       bottom: 44px; } }
 
+i.play {
+  background-image: url("../images/player/play-button.png");
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  -webkit-background-size: cover;
+          background-size: cover;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all; }
+  i.play:hover {
+    -webkit-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+            transform: translateY(5px); }
+
 .sites-button {
   background: #FF6908;
   font-size: 1.25rem;
