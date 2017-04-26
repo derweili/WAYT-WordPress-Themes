@@ -30,11 +30,11 @@ get_header(); ?>
 			<div class="columns show-for-small-only">
 				<h2>WAYT EP</h2>
 			</div>
-			<div class="columns medium-6 text-center">
+			<div class="columns small-12 medium-6 text-center">
 				<div class="cover" style="height: 0; width: 100%; padding-bottom: 100%; background: white;"></div>
 				<a href="downloads/wayt.zip" target="_blank" class="text-center float-center"><strong>kostenlos herunterladen</strong></a>
 			</div>
-			<div class="columns medium-6 end">
+			<div class="columns small-12 medium-6 end">
 				<h2 class="show-for-medium">WAYT EP</h2>
 				<ul class="playerlist show-for-medium">
 					<li data-song="0"><i class="play"></i> Kopf Unter Wasser</li>
