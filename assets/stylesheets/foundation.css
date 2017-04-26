@@ -5720,6 +5720,7 @@ html.is-reveal-open body {
   float: right; }
 
 #footer {
+  margin-bottom: 150px;
   position: fixed;
   bottom: 0;
   left: 0;
