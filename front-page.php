@@ -45,10 +45,12 @@ get_header(); ?>
 				</ul>
 				<div class="row storewrapper align-center">
 					<div class="columns small-8 medium-5 ">
-						<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:0XTEIOELXjcNNOL4rz58uW&size=detail&theme=light&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+						<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:0XTEIOELXjcNNOL4rz58uW&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 					</div>
 					<div class="columns small-8 medium-6">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/apple-music-badge.svg" alt="Apple Music" width="160">
+						<a href="https://itunes.apple.com/de/album/wayt-ep/id1220119738" target="_blank">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/apple-music-badge.svg" alt="Apple Music" width="160">
+						</a>
 					</div>
 				</div>
 			</div>
