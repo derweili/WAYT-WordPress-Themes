@@ -4,8 +4,8 @@ function free_download_banner() {
 
 	?>
 
-<div class="free-download-banner unpublished">
-	<a href="#">
+<div class="free-download-banner ">
+	<a href="/downloads/wayt.zip">
 		EP kostenlos<br>
 		herunterladen
 	</a>
