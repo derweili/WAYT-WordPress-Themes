@@ -5,8 +5,8 @@ get_header(); ?>
 <ul class="horizontal menu" data-magellan>
   <li class=""><a href="#songs">Songs</a></li>
   <li><a href="#video">Video</a></li>
-  <li><a href="#about">WAYT</a></li>
-  <li><a href="#live">Live</a></li>
+  <!--<li><a href="#about">WAYT</a></li>
+  <li><a href="#live">Live</a></li>-->
 </ul>
 </div>
 
