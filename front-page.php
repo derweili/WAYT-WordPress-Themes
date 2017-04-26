@@ -36,7 +36,7 @@ get_header(); ?>
 			</div>
 			<div class="columns small-12 medium-6 end">
 				<h2 class="show-for-medium">WAYT EP</h2>
-				<ul class="playerlist show-for-medium">
+				<ul class="playerlist">
 					<li data-song="0"><i class="play"></i> Kopf Unter Wasser</li>
 					<li data-song="1"><i class="play"></i> Wir Sind Wir</li>
 					<li data-song="2"><i class="play"></i> Ans Meer</li>
