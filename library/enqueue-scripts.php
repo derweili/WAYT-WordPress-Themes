@@ -22,8 +22,8 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js', array(), '2.1.0', false );
 
 
-	wp_enqueue_script( 'jplayer', get_template_directory_uri() . '/assets/components/jPlayer/dist/jplayer/jquery.jplayer.min.js', array('jquery'), '2.9.0', true );
-	wp_enqueue_script( 'jplaylist', get_template_directory_uri() . '/assets/components/jPlayer/dist/add-on/jplayer.playlist.min.js', array('jquery'), '2.9.0', true );
+	wp_enqueue_script( 'jplayer', get_template_directory_uri() . '/assets/javascript/jquery.jplayer.min.js', array('jquery'), '2.9.0', true );
+	wp_enqueue_script( 'jplaylist', get_template_directory_uri() . '/assets/javascript/jplayer.playlist.min.js', array('jquery'), '2.9.0', true );
 
 	// If you'd like to cherry-pick the foundation components you need in your project, head over to gulpfile.js and see lines 35-54.
 	// It's a good idea to do this, performance-wise. No need to load everything if you're just going to use the grid anyway, you know :)

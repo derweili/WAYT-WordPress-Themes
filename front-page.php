@@ -73,7 +73,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="columns text-center headline small-12">
 				<h2>WAYT</h2>
-			</div>
+		</div>
 			<div class="columns small-12 medium-6">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/bild-3.png" alt="WAYT">
 			</div>
