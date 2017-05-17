@@ -5,6 +5,7 @@ get_header(); ?>
 <ul class="horizontal menu" data-magellan>
   <li class=""><a href="#songs">Songs</a></li>
   <li><a href="#video">Video</a></li>
+  <li><a href="#contact">Kontakt</a></li>
   <!--<li><a href="#about">WAYT</a></li>
   <li><a href="#live">Live</a></li>-->
 </ul>
@@ -125,6 +126,7 @@ $fbe_query = new WP_Query( $args );
 					};
 
 			endwhile;
+			wp_reset_postdata();
 		?>
 
 			</div>
@@ -134,6 +136,24 @@ $fbe_query = new WP_Query( $args );
 
 	endif;
 ?>
+
+
+<section class="contact" id="contact" data-magellan-target="contact">
+
+	<div class="row align-center">
+		<div class="columns text-center headline small-12">
+			<h2>Kontakt</h2>
+		</div>
+		<div class="columns small-12 medium-6">
+			<?php echo do_shortcode( get_post_meta(get_the_ID(), 'wayt_contact_shortcode', true ) ); ?>
+		</div>
+	</div>
+	
+
+</section>
+
+
+
 
 <div id="bottom-pusher"></div>
 
